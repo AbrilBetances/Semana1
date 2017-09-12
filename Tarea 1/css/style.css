@@ -1,0 +1,123 @@
+body {
+	font-size: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 0.20em;	
+	background-color: white;}
+#page {
+	max-width: 940px;
+	min-width: 720px;
+	margin: 10px auto 10px auto;
+	padding: 20px;
+	background-color: white;}
+#logo {
+	width: 500px;
+	margin: 10px auto 25px auto;
+	float: center;}
+
+ul {
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #ff6633;
+	border-bottom: 2px solid #ff6633;
+	text-align: center;}
+li {
+	display: inline;
+	margin: 0px 3px;}
+p {
+	text-align: center;
+	width: 600px; 
+	margin: 20px auto 20px auto; 
+	font-weight: normal;
+    color: #ff6633;}
+h1 { 
+	text-align: center;
+    color: #ff6633;}
+a {
+	color: #ff6633;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 6px 18px 5px 18px;}
+    a:hover, a.on {
+	color: #ff6633;
+	background-color: #ffffff;}
+
+.image {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+  height: 500px;
+  overflow: hidden;
+  margin: 15px auto;
+  position: relative;
+  width: 300px;
+}
+
+figure img {
+  border-radius: 5px;
+  height: 100%;
+  transition: all .23s ease;
+  width: 100%;
+}
+
+.image figcaption {
+  color: #ff6633;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100%;
+  left: 0;
+  line-height: 250px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  transition: all .23s ease;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.image.fade figcaption {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.image.push figcaption {
+  top: 0;
+  transform: translateY(250px);
+}
+
+.image.push:hover > img {
+  transform: translateY(-250px);
+}
+
+.image.push:hover > figcaption {
+  transform: translateY(0px);
+}
+
+.image.fade:hover > img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.image.fade:hover > figcaption {
+  opacity: 1;
+  visibility: visible;
+}
+
+td {
+	border: 2px solid #ff6633;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+#table {
+text-align: center;
+}
+
+#table {
+margin: 0 auto;
+text-align: left;
+}
+/*  Aquí fue que pude hacer el texto sobre imagen con varios tutoriales, le fui
+cambiando los settings para transformarlo a mi idea inicial. :) */
+
+
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>You've gotta see these</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="jquery.js"></script>
+		<script src="jquery-3.2.1.min.js"></script>
+		<style>
+        @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+        </style>
+         <link rel="shortcut icon" href="imagenes/icono.ico">
+	</head>
+	<body>
+		<div id="page">
+			<div id="logo">
+				<img src="imagenes/you've gotta see these.png" height="300" width="500" alt="nice movies to look at" />
+			</div>
+			<ul id="navigation">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="movies.html" class="on">Movies</a></li>
+			</ul>
+
+			<!--Para separar las peliculas lo que hice fue encerrarlas en una tabla y asi organizarlas. Luego se me ocurrió que seria 
+			buena idea ponerle el link del trailer a las peliculas y por eso use itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject"><a href="http://www.imdb.com/title/tt1798709/?ref_=rvi_tt" itemprop="contentUrl" data-size="600x400"> junto con la figcaption que encontré en varios tutoriales-->
+
+<div id="table">
+<table>
+<tr>
+<td>
+<figure class="image fade">
+  <img src="imagenes/her.jpg">
+  <figcaption itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="http://www.imdb.com/title/tt1798709/?ref_=rvi_tt" itemprop="contentUrl" data-size="600x400">TRAILER</figcaption>
+</figure>
+</td>
+
+<td>
+<figure class="image fade">
+  <img src="imagenes/the Shining.jpg">
+  <figcaption itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="http://www.imdb.com/title/tt0081505/?ref_=fn_al_tt_1" itemprop="contentUrl" data-size="600x400">TAILER</figcaption>
+</figure>
+</td>
+
+<td>
+<figure class="image fade">
+  <img src="imagenes/mamma mia.jpg">
+  <figcaption itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="http://www.imdb.com/title/tt0795421/?ref_=nv_sr_1" itemprop="contentUrl" data-size="600x400">TAILER</figcaption>
+</figure>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+<figure class="image fade">
+  <img src="imagenes/hail, caesar.jpg">
+  <figcaption itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="http://www.imdb.com/title/tt0475290/?ref_=rvi_tt" itemprop="contentUrl" data-size="600x400">TRAILER</figcaption>
+</figure>
+</td>
+
+<td>
+<figure class="image fade">
+  <img src="imagenes/amelie.jpg">
+  <figcaption itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="http://www.imdb.com/title/tt0211915/" itemprop="contentUrl" data-size="600x400">TRAILER</figcaption>
+</figure>
+</td>
+
+<td>
+<figure class="image fade">
+  <img src="imagenes/blue velvet.jpg">
+  <figcaption itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="http://www.imdb.com/title/tt0090756/" itemprop="contentUrl" data-size="600x400">TAILER</figcaption>
+</figure>
+</td>
+</tr>
+</table>
+</div>
+
+
